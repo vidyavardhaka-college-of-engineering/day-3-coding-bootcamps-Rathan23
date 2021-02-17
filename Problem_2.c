@@ -8,11 +8,18 @@
 int main()
 {
     int n;
+    int a=0,b=1,c;
     printf("Enter the value for n\n");
     scanf("%d", &n);
 
     //Write your code here
+    for(int i=1;i<=n;i++)
+    {
+      printf("%d",a);
+      c =a+b;
+      a=b;
+      b=c;
+    }
     
-
     return 0;
 }
